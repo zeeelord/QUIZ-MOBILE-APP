@@ -1,0 +1,278 @@
+class Movie {
+  static List<Movie> getMovies() => [
+        Movie(
+            "Avatar",
+            "2009",
+            "PG-13",
+            "18 Dec 2009",
+            "162 min",
+            "Action, Adventure, Fantasy",
+            "James Cameron",
+            "James Cameron",
+            "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+            "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+            "English, Spanish",
+            "USA, UK",
+            "Won 3 Oscars. Another 80 wins & 121 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
+            "83",
+            "7.9",
+            "890,617",
+            "movie",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNzM2MDk3MTcyMV5BMl5BanBnXkFtZTcwNjg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2ODQ3NjMyMl5BMl5BanBnXkFtZTcwODg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxOTEwNDcxN15BMl5BanBnXkFtZTcwOTg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxMDg1Nzk1MV5BMl5BanBnXkFtZTcwMDk0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]),
+        Movie(
+            "Power",
+            "2009",
+            "PG-13",
+            "18 Dec 2009",
+            "162 min",
+            "Action, Adventure, Fantasy",
+            "James Cameron",
+            "James Cameron",
+            "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+            "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+            "English, Spanish",
+            "USA, UK",
+            "Won 3 Oscars. Another 80 wins & 121 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
+            "83",
+            "7.9",
+            "890,617",
+            "movie",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNzM2MDk3MTcyMV5BMl5BanBnXkFtZTcwNjg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2ODQ3NjMyMl5BMl5BanBnXkFtZTcwODg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxOTEwNDcxN15BMl5BanBnXkFtZTcwOTg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxMDg1Nzk1MV5BMl5BanBnXkFtZTcwMDk0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]),
+        Movie(
+            "Humane",
+            "2009",
+            "PG-13",
+            "18 Dec 2009",
+            "162 min",
+            "Action, Adventure, Fantasy",
+            "James Cameron",
+            "James Cameron",
+            "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+            "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+            "English, Spanish",
+            "USA, UK",
+            "Won 3 Oscars. Another 80 wins & 121 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
+            "83",
+            "7.9",
+            "890,617",
+            "movie",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNzM2MDk3MTcyMV5BMl5BanBnXkFtZTcwNjg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2ODQ3NjMyMl5BMl5BanBnXkFtZTcwODg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxOTEwNDcxN15BMl5BanBnXkFtZTcwOTg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxMDg1Nzk1MV5BMl5BanBnXkFtZTcwMDk0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]),
+        Movie(
+            "300",
+            "2006",
+            "R",
+            "09 mar 2007",
+            "117 min",
+            "Action, Drama, Fanatasy",
+            "Zack Snyder",
+            "Zack Snyder (screenplay), Kurt Johnstad (screenplay), Michael Gordon (screenplay), Frank Miller (graphic novel), Lynn Varley (graphic novel)",
+            "Gerard Butler, Lena Headey, Dominic West, David Wenham",
+            "King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.",
+            "English",
+            "USA",
+            "16 wins & 42 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMjAzNTkzNjcxNl5BMl5BanBnXkFtZTYwNDA4NjE3._V1_SX300.jpg",
+            "52",
+            "7.7",
+            "7.7",
+            "Movie",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMwNTg5MzMwMV5BMl5BanBnXkFtZTcwMzA2NTIyMw@@._V1_SX1777_CR0,0,1777,937_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwNTgyNTMzNF5BMl5BanBnXkFtZTcwNDA2NTIyMw@@._V1_SX1777_CR0,0,1777,935_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MjQzOTEwMV5BMl5BanBnXkFtZTcwMzE2NTIyMw@@._V1_SX1777_CR0,0,1777,947_AL_.jpg"
+        ]),
+        Movie(
+            "The AVengers",
+            "2012",
+            "pg- 13",
+            "04 may 2012",
+            "143 min",
+            "Action, Sci-fi",
+            "Joss Whedon",
+            "oss Whedon (screenplay), Zak Penn (story), Joss Whedon (story)",
+            "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
+            "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+            "English",
+            "USA",
+            "Nominated for 1 Oscar. Another 34 wins & 75 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SX300.jpg",
+            "69",
+            "8.1",
+            "1,003,301",
+            "Movies",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA0NjY0NzE4OTReQTJeQWpwZ15BbWU3MDczODg2Nzc@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1MzEzMjcyM15BMl5BanBnXkFtZTcwNDM4ODY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMwMzM2MTg1M15BMl5BanBnXkFtZTcwNjM4ODY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4NzM2Mjc5MV5BMl5BanBnXkFtZTcwMTkwOTY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3MzQ3NjA5N15BMl5BanBnXkFtZTcwMzY5OTY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+        ]),
+        Movie(
+            "Interstellar",
+            "2014",
+            "PG-13",
+            "07 Nov 2014",
+            "169 min",
+            "Adventure, Drama, Sci-Fi",
+            "Christopher Nolan",
+            "Jonathan Nolan, Christopher Nolan",
+            "Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",
+            "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+            "English",
+            "USA, UK",
+            "Won 1 Oscar. Another 39 wins & 134 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg",
+            "74",
+            "8.6",
+            "937,412",
+            "movie",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NTEwOTMxMV5BMl5BanBnXkFtZTgwMjMyODgxMzE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMzQ5ODE2MzEwM15BMl5BanBnXkFtZTgwMTMyODgxMzE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg4Njk4MzY0Nl5BMl5BanBnXkFtZTgwMzIyODgxMzE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMzE3MTM0MTc3Ml5BMl5BanBnXkFtZTgwMDIyODgxMzE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNjYzNjE2NDk3N15BMl5BanBnXkFtZTgwNzEyODgxMzE@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]),
+        Movie(
+            "Game of Thrones",
+            "2011–",
+            "TV-MA",
+            "17 Apr 2011",
+            "56 min",
+            "Adventure, Drama, Fantasy",
+            "N/A",
+            "David Benioff, D.B. Weiss",
+            "Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington",
+            "While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power. Meanwhile a forgotten race, bent on destruction, plans to return after thousands of years in the North.",
+            "English",
+            "USA, UK",
+            "Won 1 Golden Globe. Another 185 wins & 334 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMjM5OTQ1MTY5Nl5BMl5BanBnXkFtZTgwMjM3NzMxODE@._V1_SX300.jpg",
+            "N/A",
+            "9.5",
+            "1,046,830",
+            "7",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc1MGUyNzItNWRkOC00MjM1LWJjNjMtZTZlYWIxMGRmYzVlXkEyXkFqcGdeQXVyMzU3MDEyNjk@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BZjZkN2M5ODgtMjQ2OC00ZjAxLWE1MjMtZDE0OTNmNGM0NWEwXkEyXkFqcGdeQXVyNjUxNzgwNTE@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMDk4Y2Y1MDAtNGVmMC00ZTlhLTlmMmQtYjcyN2VkNzUzZjg2XkEyXkFqcGdeQXVyNjUxNzgwNTE@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNjZjNWIzMzQtZWZjYy00ZTkwLWJiMTYtOWRkZDBhNWJhY2JmXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNTMyMTRjZWEtM2UxMS00ZjU5LWIxMTYtZDA5YmJhZmRjYTc4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+        ]),
+        Movie(
+            "Avatar",
+            "2009",
+            "PG-13",
+            "18 Dec 2009",
+            "162 min",
+            "Action, Adventure, Fantasy",
+            "James Cameron",
+            "James Cameron",
+            "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+            "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+            "English, Spanish",
+            "USA, UK",
+            "Won 3 Oscars. Another 80 wins & 121 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
+            "83",
+            "7.9",
+            "890,617",
+            "movie",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNzM2MDk3MTcyMV5BMl5BanBnXkFtZTcwNjg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2ODQ3NjMyMl5BMl5BanBnXkFtZTcwODg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxOTEwNDcxN15BMl5BanBnXkFtZTcwOTg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxMDg1Nzk1MV5BMl5BanBnXkFtZTcwMDk0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]),
+        Movie(
+            "Power",
+            "2009",
+            "PG-13",
+            "18 Dec 2009",
+            "162 min",
+            "Action, Adventure, Fantasy",
+            "James Cameron",
+            "James Cameron",
+            "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+            "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+            "English, Spanish",
+            "USA, UK",
+            "Won 3 Oscars. Another 80 wins & 121 nominations.",
+            "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
+            "83",
+            "7.9",
+            "890,617",
+            "movie",
+            "True", [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BNzM2MDk3MTcyMV5BMl5BanBnXkFtZTcwNjg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2ODQ3NjMyMl5BMl5BanBnXkFtZTcwODg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxOTEwNDcxN15BMl5BanBnXkFtZTcwOTg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxMDg1Nzk1MV5BMl5BanBnXkFtZTcwMDk0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]),
+      ];
+  late String title;
+  late String year;
+  late String rated;
+  late String released;
+  late String runtime;
+  late String genre;
+  late String director;
+  late String writer;
+  late String actors;
+  late String plot;
+  late String language;
+  late String country;
+  late String award;
+  late String poster;
+  late String metascore;
+  late String imdRating;
+  late String imdbVotes;
+  late String type;
+  late String response;
+  late List images;
+
+  Movie(
+      this.title,
+      this.year,
+      this.rated,
+      this.released,
+      this.runtime,
+      this.genre,
+      this.director,
+      this.writer,
+      this.actors,
+      this.plot,
+      this.language,
+      this.country,
+      this.award,
+      this.poster,
+      this.metascore,
+      this.imdRating,
+      this.imdbVotes,
+      this.type,
+      this.response,
+      this.images);
+}

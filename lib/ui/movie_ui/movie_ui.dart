@@ -102,7 +102,7 @@ class MovieDetailsHeader extends StatelessWidget {
         Text("${movie.year} . ${movie.genre}".toUpperCase(),
             style: styleForposter()),
         Text(
-          "${movie.title}",
+          movie.title,
           style: fontStyleforHeader,
         ),
         Text.rich(TextSpan(
@@ -178,7 +178,7 @@ class MovieField extends StatelessWidget {
 }
 
 class HorizontalLine extends StatelessWidget {
-  const HorizontalLine({Key? key}) : super(key: key);
+  const HorizontalLine({super.key});
 
   @override
   Widget build(BuildContext context) {

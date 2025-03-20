@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Wisdom extends StatefulWidget {
-  const Wisdom({Key? key}) : super(key: key);
+  const Wisdom({super.key});
 
   @override
   State<Wisdom> createState() => _WisdomState();
@@ -65,9 +65,9 @@ class _WisdomState extends State<Wisdom> {
               child: TextButton.icon(
                 onPressed: _showQuote,
                 style: ButtonStyle(
-                  foregroundColor: MaterialStateProperty.all<Color>(
+                  foregroundColor: WidgetStateProperty.all<Color>(
                       Colors.greenAccent.shade700),
-                  backgroundColor: MaterialStateProperty.all(Colors.black),
+                  backgroundColor: WidgetStateProperty.all(Colors.black),
                 ),
                 icon: Icon(Icons.wb_sunny),
                 label: Text(

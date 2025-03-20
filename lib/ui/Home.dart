@@ -57,7 +57,13 @@ class _QuizState extends State<Quiz> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Center(child: Image.asset("1.1 flag.png", width: 250, height: 180)),
+          Center(
+            child: Image.asset(
+              "lib/images/1.1 flag.png",
+              width: 250,
+              height: 180,
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.all(12.0),
             child: Container(

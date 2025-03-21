@@ -47,13 +47,11 @@ class _QuizState extends State<Quiz> {
 
   @override
   Widget build(BuildContext context) {
+    print(Theme.of(context).textTheme.bodyLarge);
+
     return Scaffold(
-      appBar: AppBar(
-        title: Text("True Citizen"),
-        centerTitle: true,
-        backgroundColor: Theme.of(context).primaryColor,
-      ),
-      //backgroundColor: Colors.blueGrey,
+      appBar: AppBar(title: Text("True Citizen"), centerTitle: true),
+
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -77,13 +75,13 @@ class _QuizState extends State<Quiz> {
               ),
               height: 120.0,
               child: Padding(
-                padding: const EdgeInsets.all(12.0),
+                padding: EdgeInsets.all(12.0),
                 child: Center(
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Text(
                       questionBank[_currentQuestionIndex].questionText,
-                      //style: TextStyle(fontSize: 50.0, color: Colors.white),
+                      style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ),
                 ),

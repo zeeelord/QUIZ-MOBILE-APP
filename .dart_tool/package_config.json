@@ -170,10 +170,10 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-03-20T23:26:54.874937Z",
+  "generated": "2025-03-22T01:48:37.004198Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/daviddayo/Desktop/flutter",
-  "flutterVersion": "3.29.0",
+  "flutterVersion": "3.29.1-0.0.pre.1",
   "pubCache": "file:///Users/daviddayo/.pub-cache"
 }

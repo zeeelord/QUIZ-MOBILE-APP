@@ -47,11 +47,8 @@ class _QuizState extends State<Quiz> {
 
   @override
   Widget build(BuildContext context) {
-    print(Theme.of(context).textTheme.bodyLarge);
-
     return Scaffold(
       appBar: AppBar(title: Text("True Citizen"), centerTitle: true),
-
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -81,7 +78,6 @@ class _QuizState extends State<Quiz> {
                     padding: EdgeInsets.all(8.0),
                     child: Text(
                       questionBank[_currentQuestionIndex].questionText,
-                      style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ),
                 ),
@@ -141,7 +137,7 @@ class _QuizState extends State<Quiz> {
       final snackBar = SnackBar(
         backgroundColor: Colors.green,
         content: Text("correct"),
-        duration: Duration(milliseconds: 200),
+        duration: Duration(milliseconds: 100),
       );
       ScaffoldMessenger.of(context).showSnackBar(snackBar);
       _nextQuestion();

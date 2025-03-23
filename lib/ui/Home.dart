@@ -1,10 +1,6 @@
 import 'package:quiz_app/model/questionBank.dart';
 import 'package:flutter/material.dart';
 
-/* styleForposter() {
-    return TextStyle(fontWeight: FontWeight.w400, color: Colors.green);
-  }
-*/
 class Quiz extends StatefulWidget {
   const Quiz({super.key});
 

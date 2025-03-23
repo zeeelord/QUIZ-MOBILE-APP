@@ -49,6 +49,7 @@ class _QuizState extends State<Quiz> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("True Citizen"), centerTitle: true),
+
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -78,6 +79,7 @@ class _QuizState extends State<Quiz> {
                     padding: EdgeInsets.all(8.0),
                     child: Text(
                       questionBank[_currentQuestionIndex].questionText,
+                      style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ),
                 ),
@@ -89,39 +91,26 @@ class _QuizState extends State<Quiz> {
             children: [
               ElevatedButton(
                 onPressed: () => _previousQuestion(),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueGrey.shade900,
-                  foregroundColor: Colors.white,
-                  elevation: 5,
-                ),
-                child: Icon(Icons.arrow_back, color: Colors.white),
+                child: Icon(Icons.arrow_back),
               ),
               ElevatedButton(
                 onPressed: () => _checkAnswer(true),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueGrey.shade900,
-                  foregroundColor: Colors.white,
-                  elevation: 5,
-                ),
+
                 child: Text("True "),
               ),
               ElevatedButton(
                 onPressed: () => _checkAnswer(false),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueGrey.shade900,
-                  foregroundColor: Colors.white,
-                  elevation: 5,
+                  //backgroundColor: Colors.white,
+                  // foregroundColor: Colors.white,
+                  // elevation: 5,
                 ),
-                child: Text("False "),
+                child: Text("False"),
               ),
               ElevatedButton(
                 onPressed: () => _nextQuestion(),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueGrey.shade900,
-                  foregroundColor: Colors.white,
-                  elevation: 5,
-                ),
-                child: Icon(Icons.arrow_forward, color: Colors.white),
+
+                child: Icon(Icons.arrow_forward),
               ),
             ],
           ),

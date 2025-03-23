@@ -8,21 +8,17 @@
 		<data>
 		h5OB7aKzS5WR9SemvZAyN6FEkJs=
 		</data>
-		<key>flutter_assets/1.1%20flag.png</key>
-		<data>
-		a5TZgqWeY2L6NMn20bu41C0YELU=
-		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		0K7sEknnPfp/mYEEUAOz6YYV1fw=
+		2mXo01mLEcmejd1zsz37uYgFW/I=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		iQKAIaUor1Xn0omqbpgW1ucyL00=
+		IEOkNfXPq4c0OZK4KK1KdIcFV2Y=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		vKJkVIcw+LGHFnKJGwrQwCREv68=
+		wvK+KpMAW5P4UUMW//aj3yrUJN4=
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
@@ -31,6 +27,10 @@
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<data>
 		re4p7E8rPLLsN+wzaPN/+AVpXTY=
+		</data>
+		<key>flutter_assets/fonts/Lobster-Regular.ttf</key>
+		<data>
+		Egx1HNencXQDfCQJq4g+9+/F7bs=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		8myw+/za/9cmFscCM775rvdqcNU=
+		uRH8Mmp6HOhaHu0IyuAlUe18COE=
 		</data>
 		<key>flutter_assets/lib/images/1.1%20flag.png</key>
 		<data>
@@ -63,32 +63,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>flutter_assets/1.1%20flag.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Boxz1YAwbPwkYCMajNbRY1M5enMNInCX7Jppd6VL4pE=
-			</data>
-		</dict>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/VcGRVcBRy3nLRWQNnD7lXAvRFCyzqTjtVEXEaLZQK8=
+			M7bUxUgPcbZ/Ogiam8x3rUlBMReOGIaEO3kMLTCwkLw=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ikGieeLG+Y1LiqwAvxwwbiA1tW9YzMdGL1TiOdHl/Ck=
+			YR5xiDjUDIHwfOO1hNDuMLmAvFwuvNueMwWha32lmkM=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
+			eGyrbaHQRKS7cv+DFWxjwadt7vD+r968Jvms3p0UPNs=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES.Z</key>
@@ -103,6 +96,13 @@
 			<key>hash2</key>
 			<data>
 			lUijHkoEgTXB2U+Rkyi/tirix7s8q5ZVfHlB2ql3dss=
+			</data>
+		</dict>
+		<key>flutter_assets/fonts/Lobster-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zd13efsueDgqZU+R3VplYhjPEzokThei9dlgwG+V1zw=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -123,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mJxeNteEuO/yLxMCj+rNzR/ZE1JJ9ZM40SV5Ufc3vMQ=
+			XeMWOZhi/d8wslEH+BxwS2ht7tmHu2lXERXl1DEX+mE=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/images/1.1%20flag.png</key>
